@@ -101,7 +101,7 @@ def main():
         final_df = preprocess_data(df)
         
         # Select 50 random rows from the final dataset
-        final_df = final_df.sample(n=50, random_state=42)
+        final_df = final_df.sample(n=200, random_state=42)
        
         
         # Split the data into training and testing sets
